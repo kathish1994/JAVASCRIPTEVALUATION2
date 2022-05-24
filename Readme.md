@@ -509,6 +509,9 @@ console.log(gender);
 ```
 ## JavaScript import and export
 * You could export a function or a program and use it in another program by importing it. This helps to make reusable components.
+## JavaScript Promises
+* Promises are used to handle asynchronous tasks.
+
 
 ## 15. What is an anonymous function? Where do we use it? Why do we need it? ##
 ## Anonymous Functions ##
