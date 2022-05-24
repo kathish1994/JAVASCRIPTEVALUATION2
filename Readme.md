@@ -511,7 +511,39 @@ console.log(gender);
 * You could export a function or a program and use it in another program by importing it. This helps to make reusable components.
 ## JavaScript Promises
 * Promises are used to handle asynchronous tasks.
-
+## Benefits of Promises 
+* Improves Code Readability
+* Better handling of asynchronous operations
+* Better flow of control definition in asynchronous logic
+* Better Error Handling
+## A Promise has four states: 
+* fulfilled: Action related to the promise succeeded
+* rejected: Action related to the promise failed
+* pending: Promise is still pending i.e. not fulfilled or rejected yet
+* settled: Promise has fulfilled or rejected
+## Example
+```Javascript
+var promise = new Promise(function(resolve, reject) {
+    const x = "kathish";
+    const y = "kathish"
+    if(x === y) {
+      resolve();
+    } else {
+      reject();
+    }
+  });
+     
+  promise.then(function () {
+          console.log('Success, You are a kathish');
+      }).
+      catch(function () {
+          console.log('Some error has occurred');
+      });
+```
+## Output
+```Javascript
+Success, You are a kathish
+```
 
 ## 15. What is an anonymous function? Where do we use it? Why do we need it? ##
 ## Anonymous Functions ##
